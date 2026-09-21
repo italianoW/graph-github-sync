@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "skipLibCheck": true,
     "inlineSourceMap": true,
     "inlineSources": true,
     "module": "ESNext",
@@ -11,7 +12,12 @@
     "importHelpers": true,
     "isolatedModules": true,
     "strict": true,
-    "lib": ["DOM", "ES2020"]
+    "lib": [
+      "DOM",
+      "ES2020"
+    ]
   },
-  "include": ["**/*.ts"]
+  "include": [
+    "**/*.ts"
+  ]
 }
