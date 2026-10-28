@@ -1,6 +1,6 @@
 {
   "name": "graph-github-sync",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Push an anonymized snapshot of your Obsidian graph to GitHub.",
   "main": "main.js",
   "scripts": {
